@@ -15,7 +15,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-z#%kwd+0v#i-7w-7be6!c4=u!6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '*').split(',')
+ALLOWED_HOSTS = ['api.ilmiyfaoliyat.uz', '167.71.53.238']
 
 # Application definition
 INSTALLED_APPS = [
@@ -175,6 +175,10 @@ CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:3000',
     'http://localhost:5173',
     'http://127.0.0.1:5173',
+    'https://ilmiyfaoliyat.uz',
+    'http://ilmiyfaoliyat.uz',
+    'https://api.ilmiyfaoliyat.uz',
+    'http://api.ilmiyfaoliyat.uz'
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [

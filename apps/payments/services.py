@@ -354,7 +354,7 @@ class ClickPaymentService:
         
         # Agar callback_url berilmagan bo'lsa, default URL o'rnatamiz
         if not callback_url:
-            callback_url = f'http://127.0.0.1:8000/api/click/callback/'  # Backend callback URL
+            callback_url = f'https://api.ilmiyfaoliyat.uz/api/click/callback/'  # Backend callback URL
         
         # Click to'lov sahifasiga o'tish uchun URL
         # Note: transaction_param should be merchant_trans_id for proper tracking

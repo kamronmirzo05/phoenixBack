@@ -15442,14 +15442,14 @@ Watching for file changes with StatReloader
 "GET /api/v1/notifications/ HTTP/1.1" 200 52
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 436
 "OPTIONS /api/v1/payments/transactions/237b7f09-77ff-4cd7-85dc-7f4b86663631/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction 237b7f09-77ff-4cd7-85dc-7f4b86663631: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=1452500.00&transaction_param=237b7f09-77ff-4cd7-85dc-7f4b86663631&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction 237b7f09-77ff-4cd7-85dc-7f4b86663631: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=1452500.00&transaction_param=237b7f09-77ff-4cd7-85dc-7f4b86663631&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/237b7f09-77ff-4cd7-85dc-7f4b86663631/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 262
 "OPTIONS /api/v1/payments/transactions/237b7f09-77ff-4cd7-85dc-7f4b86663631/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('237b7f09-77ff-4cd7-85dc-7f4b86663631'), 'status': 'pending', 'amount': Decimal('1452500.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 6, 19, 660583, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
 "POST /api/v1/payments/transactions/237b7f09-77ff-4cd7-85dc-7f4b86663631/check_status/ HTTP/1.1" 200 255
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 436
 "OPTIONS /api/v1/payments/transactions/e44760c2-11a0-43fc-8787-b658836ddd72/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction e44760c2-11a0-43fc-8787-b658836ddd72: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=1452500.00&transaction_param=e44760c2-11a0-43fc-8787-b658836ddd72&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction e44760c2-11a0-43fc-8787-b658836ddd72: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=1452500.00&transaction_param=e44760c2-11a0-43fc-8787-b658836ddd72&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/e44760c2-11a0-43fc-8787-b658836ddd72/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 262
 "GET /api/v1/auth/profile/ HTTP/1.1" 200 565
 "GET /api/v1/auth/profile/ HTTP/1.1" 200 565
@@ -15457,7 +15457,7 @@ Payment URL generated for transaction e44760c2-11a0-43fc-8787-b658836ddd72: http
 "GET /api/v1/notifications/ HTTP/1.1" 200 52
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 436
 "OPTIONS /api/v1/payments/transactions/924ad822-7887-4392-9463-56519dac9a9f/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction 924ad822-7887-4392-9463-56519dac9a9f: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=1452500.00&transaction_param=924ad822-7887-4392-9463-56519dac9a9f&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction 924ad822-7887-4392-9463-56519dac9a9f: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=1452500.00&transaction_param=924ad822-7887-4392-9463-56519dac9a9f&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/924ad822-7887-4392-9463-56519dac9a9f/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 262
 "OPTIONS /api/v1/payments/transactions/924ad822-7887-4392-9463-56519dac9a9f/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('924ad822-7887-4392-9463-56519dac9a9f'), 'status': 'pending', 'amount': Decimal('1452500.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 7, 10, 759529, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
@@ -15558,7 +15558,7 @@ Watching for file changes with StatReloader
 "GET /api/v1/notifications/ HTTP/1.1" 200 52
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 434
 "OPTIONS /api/v1/payments/transactions/2a5a2965-29f2-444f-be4c-37126c101a1d/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction 2a5a2965-29f2-444f-be4c-37126c101a1d: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17300.00&transaction_param=2a5a2965-29f2-444f-be4c-37126c101a1d&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction 2a5a2965-29f2-444f-be4c-37126c101a1d: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17300.00&transaction_param=2a5a2965-29f2-444f-be4c-37126c101a1d&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/2a5a2965-29f2-444f-be4c-37126c101a1d/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 260
 "OPTIONS /api/v1/payments/transactions/2a5a2965-29f2-444f-be4c-37126c101a1d/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('2a5a2965-29f2-444f-be4c-37126c101a1d'), 'status': 'pending', 'amount': Decimal('17300.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 21, 57, 90558, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
@@ -15626,7 +15626,7 @@ Bad Request: /api/v1/articles/
 "GET /api/v1/notifications/ HTTP/1.1" 200 52
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 434
 "OPTIONS /api/v1/payments/transactions/daa70e9d-5e23-455f-a344-f04fc346b205/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction daa70e9d-5e23-455f-a344-f04fc346b205: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17300.00&transaction_param=daa70e9d-5e23-455f-a344-f04fc346b205&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction daa70e9d-5e23-455f-a344-f04fc346b205: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17300.00&transaction_param=daa70e9d-5e23-455f-a344-f04fc346b205&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/daa70e9d-5e23-455f-a344-f04fc346b205/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 260
 "OPTIONS /api/v1/payments/transactions/daa70e9d-5e23-455f-a344-f04fc346b205/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('daa70e9d-5e23-455f-a344-f04fc346b205'), 'status': 'pending', 'amount': Decimal('17300.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 25, 9, 675060, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
@@ -15652,7 +15652,7 @@ Check status result: {'id': UUID('daa70e9d-5e23-455f-a344-f04fc346b205'), 'statu
 "GET /api/v1/notifications/ HTTP/1.1" 200 52
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 434
 "OPTIONS /api/v1/payments/transactions/3faa7524-8819-4c98-8904-757ea7885a3d/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction 3faa7524-8819-4c98-8904-757ea7885a3d: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17300.00&transaction_param=3faa7524-8819-4c98-8904-757ea7885a3d&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction 3faa7524-8819-4c98-8904-757ea7885a3d: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17300.00&transaction_param=3faa7524-8819-4c98-8904-757ea7885a3d&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/3faa7524-8819-4c98-8904-757ea7885a3d/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 260
 "OPTIONS /api/v1/payments/transactions/3faa7524-8819-4c98-8904-757ea7885a3d/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('3faa7524-8819-4c98-8904-757ea7885a3d'), 'status': 'pending', 'amount': Decimal('17300.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 26, 34, 57530, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
@@ -15678,14 +15678,14 @@ Check status result: {'id': UUID('3faa7524-8819-4c98-8904-757ea7885a3d'), 'statu
 "GET /api/v1/notifications/ HTTP/1.1" 200 52
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 434
 "OPTIONS /api/v1/payments/transactions/cdf9b47a-3208-4154-92fd-54025e744777/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction cdf9b47a-3208-4154-92fd-54025e744777: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17700.00&transaction_param=cdf9b47a-3208-4154-92fd-54025e744777&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction cdf9b47a-3208-4154-92fd-54025e744777: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17700.00&transaction_param=cdf9b47a-3208-4154-92fd-54025e744777&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/cdf9b47a-3208-4154-92fd-54025e744777/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 260
 "OPTIONS /api/v1/payments/transactions/cdf9b47a-3208-4154-92fd-54025e744777/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('cdf9b47a-3208-4154-92fd-54025e744777'), 'status': 'pending', 'amount': Decimal('17700.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 28, 30, 514091, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
 "POST /api/v1/payments/transactions/cdf9b47a-3208-4154-92fd-54025e744777/check_status/ HTTP/1.1" 200 253
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 434
 "OPTIONS /api/v1/payments/transactions/25bfa6f0-86f0-4fb0-957b-79596a596923/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction 25bfa6f0-86f0-4fb0-957b-79596a596923: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17700.00&transaction_param=25bfa6f0-86f0-4fb0-957b-79596a596923&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction 25bfa6f0-86f0-4fb0-957b-79596a596923: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17700.00&transaction_param=25bfa6f0-86f0-4fb0-957b-79596a596923&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/25bfa6f0-86f0-4fb0-957b-79596a596923/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 260
 "OPTIONS /api/v1/payments/transactions/25bfa6f0-86f0-4fb0-957b-79596a596923/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('25bfa6f0-86f0-4fb0-957b-79596a596923'), 'status': 'pending', 'amount': Decimal('17700.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 29, 3, 453567, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
@@ -15711,7 +15711,7 @@ Check status result: {'id': UUID('25bfa6f0-86f0-4fb0-957b-79596a596923'), 'statu
 "GET /api/v1/notifications/ HTTP/1.1" 200 52
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 434
 "OPTIONS /api/v1/payments/transactions/d7790d67-b2d3-434e-a561-ab51abdc3711/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction d7790d67-b2d3-434e-a561-ab51abdc3711: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17700.00&transaction_param=d7790d67-b2d3-434e-a561-ab51abdc3711&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction d7790d67-b2d3-434e-a561-ab51abdc3711: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17700.00&transaction_param=d7790d67-b2d3-434e-a561-ab51abdc3711&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/d7790d67-b2d3-434e-a561-ab51abdc3711/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 260
 "OPTIONS /api/v1/payments/transactions/d7790d67-b2d3-434e-a561-ab51abdc3711/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('d7790d67-b2d3-434e-a561-ab51abdc3711'), 'status': 'pending', 'amount': Decimal('17700.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 29, 36, 71309, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
@@ -15737,7 +15737,7 @@ Check status result: {'id': UUID('d7790d67-b2d3-434e-a561-ab51abdc3711'), 'statu
 "GET /api/v1/notifications/ HTTP/1.1" 200 52
 "POST /api/v1/payments/transactions/ HTTP/1.1" 201 434
 "OPTIONS /api/v1/payments/transactions/d2435b90-5eb5-4bdc-956d-c1e36e29bc26/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 0
-Payment URL generated for transaction d2435b90-5eb5-4bdc-956d-c1e36e29bc26: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17300.00&transaction_param=d2435b90-5eb5-4bdc-956d-c1e36e29bc26&return_url=http://localhost:3000/payment-success&callback_url=http://127.0.0.1:8000/api/click/callback/
+Payment URL generated for transaction d2435b90-5eb5-4bdc-956d-c1e36e29bc26: https://my.click.uz/services/pay?service_id=89248&merchant_id=45730&amount=17300.00&transaction_param=d2435b90-5eb5-4bdc-956d-c1e36e29bc26&return_url=http://localhost:3000/payment-success&callback_url=https://api.ilmiyfaoliyat.uz/api/click/callback/
 "GET /api/v1/payments/transactions/d2435b90-5eb5-4bdc-956d-c1e36e29bc26/get_payment_url/?return_url=http%3A%2F%2Flocalhost%3A3000%2Fpayment-success HTTP/1.1" 200 260
 "OPTIONS /api/v1/payments/transactions/d2435b90-5eb5-4bdc-956d-c1e36e29bc26/check_status/ HTTP/1.1" 200 0
 Check status result: {'id': UUID('d2435b90-5eb5-4bdc-956d-c1e36e29bc26'), 'status': 'pending', 'amount': Decimal('17300.00'), 'service_type': 'book_publication', 'created_at': datetime.datetime(2026, 1, 1, 12, 35, 17, 169594, tzinfo=datetime.timezone.utc), 'completed_at': None, 'click_trans_id': '', 'click_paydoc_id': '', 'error_code': None, 'error_note': ''}
